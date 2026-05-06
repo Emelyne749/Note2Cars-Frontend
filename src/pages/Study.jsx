@@ -74,7 +74,7 @@ export default function Study() {
         </div>
         <div className="w-full bg-gray-800 rounded-full h-2">
           <div
-            className="bg-gradient-to-r from-violet-600 to-fuchsia-600 h-2 rounded-full transition-all duration-500"
+            className="bg-linear-to-br from-violet-600 to-fuchsia-600 h-2 rounded-full transition-all duration-500"
             style={{ width: `${((current + 1) / flashcards.length) * 100}%` }}
           />
         </div>
@@ -113,7 +113,7 @@ export default function Study() {
 
           {/* Back - Answer */}
           <div
-            className="absolute inset-0 bg-gradient-to-br from-violet-900/50 to-fuchsia-900/50 border-2 border-violet-600 rounded-3xl p-10 flex flex-col justify-between"
+            className="absolute inset-0 bg-linear-to-br from-violet-900/50 to-fuchsia-900/50 border-2 border-violet-600 rounded-3xl p-10 flex flex-col justify-between"
             style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
           >
             <div className="flex items-center justify-between">
