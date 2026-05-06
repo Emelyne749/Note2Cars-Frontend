@@ -60,14 +60,14 @@ export default function Landing() {
 
       {/* Hero Section */}
       <div className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-violet-900/20 via-gray-950 to-gray-950" />
+        <div className="absolute inset-0 bg-linear-to-br from-violet-900/20 via-gray-950 to-gray-950" />
         <div className="relative max-w-5xl mx-auto px-6 pt-20 pb-16 text-center">
           <div className="inline-flex items-center gap-2 bg-violet-900/30 border border-violet-700/50 rounded-full px-4 py-1.5 text-violet-300 text-sm mb-6">
             🤖 AI-Powered Flashcard Generator
           </div>
           <h1 className="text-6xl font-black text-white mb-4 leading-tight">
             Turn Your Notes Into<br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-fuchsia-400">
+            <span className="text-transparent bg-clip-text bg-linear-to-br from-violet-400 to-fuchsia-400">
               Smart Flashcards
             </span>
           </h1>
@@ -171,7 +171,7 @@ export default function Landing() {
         <button
           onClick={handleSubmit}
           disabled={loading}
-          className="w-full py-5 bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 disabled:from-gray-700 disabled:to-gray-700 text-white text-xl font-black rounded-2xl transition-all duration-200 hover:scale-[1.02] hover:shadow-lg hover:shadow-violet-500/25 disabled:scale-100"
+          className="w-full py-5 bg-linear-to-br from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 disabled:from-gray-700 disabled:to-gray-700 text-white text-xl font-black rounded-2xl transition-all duration-200 hover:scale-[1.02] hover:shadow-lg hover:shadow-violet-500/25 disabled:scale-100"
         >
           {loading ? '⏳ Preparing your flashcards...' : '✨ Create Flashcards'}
         </button>
